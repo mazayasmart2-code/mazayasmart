@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مزايا سمارت للهواتف الذكية</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); color: #ffffff; min-height: 100vh; display: flex; flex-direction: column; align-items: center; padding: 30px 20px; }
+        .profile-container { text-align: center; max-width: 450px; width: 100%; }
+        .logo { width: 120px; height: 120px; border-radius: 50%; border: 3px solid #00f2fe; box-shadow: 0 0 20px rgba(0, 242, 254, 0.5); margin-bottom: 15px; object-fit: cover; }
+        h1 { font-size: 24px; font-weight: bold; margin-bottom: 8px; color: #00f2fe; text-shadow: 0 2px 4px rgba(0,0,0,0.3); }
+        .bio { font-size: 14px; color: #94a3b8; line-height: 1.6; margin-bottom: 25px; padding: 0 10px; }
+        .links-container { width: 100%; display: flex; flex-direction: column; gap: 15px; }
+        .link-card { background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 12px; padding: 16px 20px; display: flex; align-items: center; text-decoration: none; color: #ffffff; transition: all 0.3s ease; backdrop-filter: blur(10px); }
+        .link-card:hover { transform: translateY(-3px); background: rgba(255, 255, 255, 0.1); border-color: #00f2fe; box-shadow: 0 5px 15px rgba(0, 242, 254, 0.2); }
+        .link-card i { font-size: 24px; margin-left: 15px; width: 30px; text-align: center; }
+        .link-text { flex-grow: 1; font-size: 16px; font-weight: 500; text-align: right; }
+        .fa-whatsapp { color: #25D366; }
+        .fa-facebook { color: #1877F2; }
+        .fa-tiktok { color: #000000; }
+        .fa-instagram { color: #E1306C; }
+        .fa-phone { color: #00f2fe; }
+        .footer-text { font-size: 14px; color: #cbd5e1; margin-top: 25px; margin-bottom: 15px; line-height: 1.5; font-weight: bold; }
+        .direct-btn { background: #25D366; color: #fff; border: none; }
+        .direct-btn:hover { background: #20ba5a; border-color: #25D366; box-shadow: 0 5px 15px rgba(37, 211, 102, 0.4); }
+        .direct-btn i { color: #fff; }
+    </style>
+</head>
+<body>
+
+    <div class="profile-container">
+        <!-- هنا سنضع شعار متجرك لاحقاً -->
+        <img src="https://via.placeholder.com/150" alt="شعار مزايا سمارت" class="logo">
+        
+        <h1>مزايا سمارت للهواتف الذكية</h1>
+        <p class="bio">محل مزايا سمارت للهواتف الذكية ومستلزماتها والألكترونيات<br>العنوان/ صنعاء - حي قاع العلفي - شارع التوفيق (خلف المستشفى الجمهوري - أمام مدخل مركز الأورام)</p>
+        
+        <div class="links-container">
+            <!-- زر الواتساب (المجتمع) -->
+            <a href="https://chat.whatsapp.com/LVmnT9ORZVM18cAdM0n6Ip" target="_blank" class="link-card">
+                <i class="fab fa-whatsapp"></i>
+                <span class="link-text">تابع مجتمعنا عبر الواتس اب لتتميز بعروضنا ومنتجاتنا المستمرة</span>
+            </a>
+
+            <!-- زر الفيسبوك -->
+            <a href="https://www.facebook.com/share/1BSYSy62U9/" target="_blank" class="link-card">
+                <i class="fab fa-facebook"></i>
+                <span class="link-text">تابع صفحتنا على فيسبوك لتطلع على أجدد عروضنا ومساباتنا</span>
+            </a>
+
+            <!-- زر تيك توك -->
+            <a href="https://www.tiktok.com/@mazaya_smart1?_r=1&_t=ZS-97ZXaEqaby5" target="_blank" class="link-card">
+                <i class="fab fa-tiktok"></i>
+                <span class="link-text">تابع صفحتنا على تيك توك لمتابعة جديد منتجاتنا</span>
+            </a>
+
+            <!-- زر انستغرام -->
+            <a href="https://www.instagram.com/mazaya_smart1?igsh=MXRzdG96c2tkNTVoeA==" target="_blank" class="link-card">
+                <i class="fab fa-instagram"></i>
+                <span class="link-text">تابع صفحتنا على الانستغرام لتكون متميزاً دائماً</span>
+            </a>
+            
+            <!-- العبارة التوجيهية السفلية -->
+            <p class="footer-text">للتواصل معانا مباشرتاً اتصال وواتس اب وفيس بوك اضغط هنا 👇</p>
+
+            <!-- زر الاتصال المباشر المطور -->
+            <a href="tel:783913333" class="link-card">
+                <i class="fas fa-phone"></i>
+                <span class="link-text">اتصل الآن: 783913333</span>
+            </a>
+
+            <!-- زر مراسلة الواتساب المباشرة السحري على رقم المحل -->
+            <a href="https://wa.me/967783913333" target="_blank" class="link-card direct-btn">
+                <i class="fab fa-whatsapp"></i>
+                <span class="link-text">مراستنا الآن عبر الواتس اب للمحل</span>
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
