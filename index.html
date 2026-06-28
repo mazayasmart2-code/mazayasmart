@@ -4,76 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>مزايا سمارت للهواتف الذكية</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
         body { background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); color: #ffffff; min-height: 100vh; display: flex; flex-direction: column; align-items: center; padding: 30px 20px; }
         .profile-container { text-align: center; max-width: 450px; width: 100%; }
         .logo { width: 120px; height: 120px; border-radius: 50%; border: 3px solid #00f2fe; box-shadow: 0 0 20px rgba(0, 242, 254, 0.5); margin-bottom: 15px; object-fit: cover; }
-        h1 { font-size: 24px; font-weight: bold; margin-bottom: 8px; color: #00f2fe; text-shadow: 0 2px 4px rgba(0,0,0,0.3); }
-        .bio { font-size: 14px; color: #94a3b8; line-height: 1.6; margin-bottom: 25px; padding: 0 10px; }
+        h1 { font-size: 24px; font-weight: bold; margin-bottom: 12px; color: #00f2fe; text-shadow: 0 2px 4px rgba(0,0,0,0.3); }
+        .bio { font-size: 14px; color: #cbd5e1; line-height: 1.6; margin-bottom: 25px; padding: 0 10px; background: rgba(255, 255, 255, 0.03); padding: 15px; border-radius: 12px; border: 1px solid rgba(255, 255, 255, 0.05); }
         .links-container { width: 100%; display: flex; flex-direction: column; gap: 15px; }
         .link-card { background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 12px; padding: 16px 20px; display: flex; align-items: center; text-decoration: none; color: #ffffff; transition: all 0.3s ease; backdrop-filter: blur(10px); }
         .link-card:hover { transform: translateY(-3px); background: rgba(255, 255, 255, 0.1); border-color: #00f2fe; box-shadow: 0 5px 15px rgba(0, 242, 254, 0.2); }
-        .link-card i { font-size: 24px; margin-left: 15px; width: 30px; text-align: center; }
+        .link-card svg { width: 24px; height: 24px; margin-left: 15px; fill: currentColor; flex-shrink: 0; }
         .link-text { flex-grow: 1; font-size: 16px; font-weight: 500; text-align: right; }
-        .fa-whatsapp { color: #25D366; }
-        .fa-facebook { color: #1877F2; }
-        .fa-tiktok { color: #000000; }
-        .fa-instagram { color: #E1306C; }
-        .fa-phone { color: #00f2fe; }
-        .footer-text { font-size: 14px; color: #cbd5e1; margin-top: 25px; margin-bottom: 15px; line-height: 1.5; font-weight: bold; }
+        .icon-whatsapp { color: #25D366; }
+        .icon-facebook { color: #1877F2; }
+        .icon-tiktok { color: #ffffff; }
+        .icon-instagram { color: #E1306C; }
+        .icon-phone { color: #00f2fe; }
+        .footer-text { font-size: 14px; color: #00f2fe; margin-top: 25px; margin-bottom: 15px; line-height: 1.5; font-weight: bold; }
         .direct-btn { background: #25D366; color: #fff; border: none; }
         .direct-btn:hover { background: #20ba5a; border-color: #25D366; box-shadow: 0 5px 15px rgba(37, 211, 102, 0.4); }
-        .direct-btn i { color: #fff; }
+        .direct-btn svg { color: #fff; }
     </style>
 </head>
 <body>
 
     <div class="profile-container">
-        <!-- هنا سنضع شعار متجرك لاحقاً -->
+        <!-- ضع رابط شعارك المباشر هنا بدلاً من العبارة المؤقتة -->
         <img src="https://i.postimg.cc/mr45Kt3q/Picsart-26-06-24-04-11-22-386.jpg" alt="شعار مزايا سمارت" class="logo">
         
         <h1>مزايا سمارت للهواتف الذكية</h1>
-        <p class="bio">محل مزايا سمارت للهواتف الذكية ومستلزماتها والألكترونيات<br>العنوان/ صنعاء - حي قاع العلفي - شارع التوفيق (خلف المستشفى الجمهوري - أمام مدخل مركز الأورام)</p>
+        
+        <!-- الوصف الترحيبي الاحترافي والتعريفي الجديد ومدمج فيه رقم الهاتف والعنوان -->
+        <div class="bio">
+            مرحباً بكم في الصفحة الرسمية الموثقة لـ <b>مزايا سمارت</b> للهواتف الذكية ومستلزماتها والألكترونيات 🌟<br>
+            العنوان/ صنعاء - حي قاع العلفي - شارع التوفيق (خلف المستشفى الجمهوري - أمام مدخل مركز الأورام)<br>
+            <span style="color: #00f2fe; font-weight: bold; display: block; margin-top: 8px;">للتواصل هاتفياً أو واتس اب: 783913333</span>
+            <span style="font-size: 13px; color: #94a3b8; display: block; margin-top: 8px;">يسعدنا انضمامكم إلينا ومتابعتنا عبر منصاتنا الرسمية، يرجى النقر على أحد الخيارات أدناه للتوجيه المباشر 👇</span>
+        </div>
         
         <div class="links-container">
             <!-- زر الواتساب (المجتمع) -->
             <a href="https://chat.whatsapp.com/LVmnT9ORZVM18cAdM0n6Ip" target="_blank" class="link-card">
-                <i class="fab fa-whatsapp"></i>
+                <svg class="icon-whatsapp" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.713-1.457L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.625 1.451 5.437 0 9.862-4.421 9.865-9.859.001-2.636-1.02-5.115-2.873-6.97-1.851-1.855-4.326-2.877-6.967-2.877-5.44 0-9.866 4.421-9.869 9.86-.001 1.513.412 2.997 1.196 4.31l-.985 3.599 3.693-.968zM17.487 14.4c-.27-.135-1.595-.787-1.842-.876-.246-.089-.426-.135-.606.135-.18.27-.696.876-.853 1.057-.157.18-.314.202-.584.067-.27-.135-1.14-.42-2.172-1.34-.803-.717-1.345-1.603-1.502-1.873-.157-.27-.017-.416.118-.551.121-.122.27-.315.405-.472.135-.157.18-.27.27-.45.09-.18.045-.337-.022-.472-.068-.135-.606-1.462-.831-2.003-.219-.527-.441-.456-.606-.465-.157-.008-.337-.009-.517-.009-.18 0-.472.067-.719.337-.247.27-.944.922-.944 2.249s.966 2.61 1.101 2.79c.135.18 1.902 2.904 4.609 4.072.645.278 1.148.445 1.541.569.648.206 1.237.177 1.702.108.519-.078 1.595-.652 1.82-1.248.225-.595.225-1.102.157-1.21-.067-.107-.247-.174-.517-.309z"/></svg>
                 <span class="link-text">تابع مجتمعنا عبر الواتس اب لتتميز بعروضنا ومنتجاتنا المستمرة</span>
             </a>
 
             <!-- زر الفيسبوك -->
             <a href="https://www.facebook.com/share/1BSYSy62U9/" target="_blank" class="link-card">
-                <i class="fab fa-facebook"></i>
-                <span class="link-text">تابع صفحتنا على فيسبوك لتطلع على أجدد عروضنا ومساباتنا</span>
+                <svg class="icon-facebook" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                <span class="link-text">تابع صفحتنا على فيسبوك لتطلع على أجدد عروضنا ومسابقاتنا</span>
             </a>
 
             <!-- زر تيك توك -->
             <a href="https://www.tiktok.com/@mazaya_smart1?_r=1&_t=ZS-97ZXaEqaby5" target="_blank" class="link-card">
-                <i class="fab fa-tiktok"></i>
+                <svg class="icon-tiktok" viewBox="0 0 24 24"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.05 1.62 4.2 1.23 1.33 2.97 2.17 4.79 2.42v3.91c-1.39-.17-2.73-.74-3.83-1.63-.64-.52-1.17-1.17-1.57-1.91l-.05-.07v7.2c.03 1.76-.43 3.54-1.37 4.97-1.2 1.87-3.19 3.23-5.39 3.7-2.03.46-4.2.22-6.09-.67-2.2-1.01-3.92-2.99-4.71-5.31-.83-2.38-.63-5.08.57-7.3 1.25-2.27 3.48-3.92 6.01-4.4 1.39-.28 2.84-.21 4.19.22V11c-.96-.4-2.03-.51-3.04-.3-1.27.24-2.42.99-3.16 2.06-.85 1.2-1.14 2.76-.78 4.2.32 1.32 1.18 2.49 2.38 3.19 1.13.68 2.5.86 3.76.5 1.36-.37 2.52-1.34 3.16-2.61.47-.9.69-1.92.65-2.93l-.02-14.92c-.01-.06-.02-.12-.02-.17z"/></svg>
                 <span class="link-text">تابع صفحتنا على تيك توك لمتابعة جديد منتجاتنا</span>
             </a>
 
             <!-- زر انستغرام -->
             <a href="https://www.instagram.com/mazaya_smart1?igsh=MXRzdG96c2tkNTVoeA==" target="_blank" class="link-card">
-                <i class="fab fa-instagram"></i>
+                <svg class="icon-instagram" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
                 <span class="link-text">تابع صفحتنا على الانستغرام لتكون متميزاً دائماً</span>
             </a>
             
-            <!-- العبارة التوجيهية السفلية -->
-            <p class="footer-text">للتواصل معانا مباشرتاً اتصال وواتس اب وفيس بوك اضغط هنا 👇</p>
+            <!-- العبارة التوجيهية السفلية المضيئة -->
+            <p class="footer-text">للتواصل والمراسلة السريعة اضغط هنا 👇</p>
 
             <!-- زر الاتصال المباشر المطور -->
             <a href="tel:783913333" class="link-card">
-                <i class="fas fa-phone"></i>
+                <svg class="icon-phone" viewBox="0 0 24 24"><path d="M21.384 17.791l-3.75-3.75a1.254 1.254 0 00-1.768 0l-1.401 1.401c-.247.247-.624.288-.918.094-1.127-.743-2.28-1.896-3.023-3.023-.194-.294-.153-.671.094-.918l1.401-1.401a1.254 1.254 0 000-1.768l-3.75-3.75a1.254 1.254 0 00-1.768 0L4.316 6.071c-.742.742-1.03 1.832-.735 2.812 1.157 3.844 4.195 8.243 8.243 8.243.6 0 1.189-.1 1.74-.298.98-.352 1.847-.042 2.454.565l2.166 2.166a1.254 1.254 0 001.768 0l2.206-2.206a1.254 1.254 0 000-1.768z"/></svg>
                 <span class="link-text">اتصل الآن: 783913333</span>
             </a>
 
             <!-- زر مراسلة الواتساب المباشرة السحري على رقم المحل -->
             <a href="https://wa.me/967783913333" target="_blank" class="link-card direct-btn">
-                <i class="fab fa-whatsapp"></i>
+                <svg viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.713-1.457L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.625 1.451 5.437 0 9.862-4.421 9.865-9.859.001-2.636-1.02-5.115-2.873-6.97-1.851-1.855-4.326-2.877-6.967-2.877-5.44 0-9.866 4.421-9.869 9.86-.001 1.513.412 2.997 1.196 4.31l-.985 3.599 3.693-.968zM17.487 14.4c-.27-.135-1.595-.787-1.842-.876-.246-.089-.426-.135-.606.135-.18.27-.696.876-.853 1.057-.157.18-.314.202-.584.067-.27-.135-1.14-.42-2.172-1.34-.803-.717-1.345-1.603-1.502-1.873-.157-.27-.017-.416.118-.551.121-.122.27-.315.405-.472.135-.157.18-.27.27-.45.09-.18.045-.337-.022-.472-.068-.135-.606-1.462-.831-2.003-.219-.527-.441-.456-.606-.465-.157-.008-.337-.009-.517-.009-.18 0-.472.067-.719.337-.247.27-.944.922-.944 2.249s.966 2.61 1.101 2.79c.135.18 1.902 2.904 4.609 4.072.645.278 1.148.445 1.541.569.648.206 1.237.177 1.702.108.519-.078 1.595-.652 1.82-1.248.225-.595.225-1.102.157-1.21-.067-.107-.247-.174-.517-.309z"/></svg>
                 <span class="link-text">مراستنا الآن عبر الواتس اب للمحل</span>
             </a>
         </div>
